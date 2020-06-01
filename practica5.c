@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main() {
+int main()
+{
 	int i = 0, suma_total = 0, v;
 	float promedio = 0.0f;
 	
