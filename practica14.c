@@ -18,16 +18,16 @@ struct student
 	char gender[' '];
 };
 
-struct student studentList[POSIBLES];
-int opcion, n = 0, i;
-
-// variables temporales
-bool valido;
-int temp;
-char temporal[' '];
-
 int main()
 {
+	struct student studentList[POSIBLES];
+	int opcion, n = 0, i;
+
+	// variables temporales
+	bool valido;
+	int temp;
+	char temporal[' '];
+	
 	// Control de registro de estudiantes
 	do
 	{
