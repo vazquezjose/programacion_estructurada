@@ -3,7 +3,7 @@
 
 int main() {
 	int i = 0, suma_total = 0, v;
-	float promedio;
+	float promedio = 0.0f;
 	
 	while (v >= 0)
 	{
@@ -11,11 +11,12 @@ int main() {
 		scanf("%i", &v);
 		if (v >= 0)
 		{
-			suma_total += v;
+			suma_total = suma_total + v;
 			i++;
 		}
 	}
-	promedio = suma_total / i;
+	if (suma_total != 0)
+		promedio = suma_total / i;
 	printf("El promedio es de: %.2f.\n", promedio);
 	
 	system("pause");
