@@ -210,7 +210,7 @@ int main()
 	while (opcion == 1);
 	
 	printf("---------------------REPORTE---------------------\n\n");
-	for (i = 0; i < POSIBLES; i++)
+	for (i = 0; i < n; i++)
 	{
 		printf("Estudiante %i\n", i+1);
 		printf("\tMatricula: %i\n", studentList[i].studentId);
